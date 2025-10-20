@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musungu Shadrack Snr. - Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom styles and font import */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f9fc; /* Light subtle blue-gray background */
+        }
+    </style>
+</head>
+<body class="min-h-screen text-gray-900 antialiased">
+
+    <header class="bg-white shadow-md sticky top-0 z-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <h1 class="text-3xl font-extrabold text-blue-600 tracking-tight">Musungu Shadrack Snr. | Portfolio</h1>
+            <nav class="hidden md:flex space-x-6">
+                <a href="#projects" class="text-gray-900 hover:text-blue-600 transition duration-150">Projects</a>
+                <a href="#opinion" class="text-gray-900 hover:text-blue-600 transition duration-150">Opinion</a>
+                <a href="#resume" class="text-gray-900 hover:text-blue-600 transition duration-150">Resume</a>
+                <a href="#contact" class="text-gray-900 hover:text-blue-600 transition duration-150">Contact</a>
+            </nav>
+            <button id="cta-button-nav" class="hidden md:block bg-blue-600 text-white px-5 py-2 rounded-lg font-semibold hover:bg-blue-700 transition duration-300 shadow-lg">Connect</button>
+
+            <button id="mobile-menu-button" class="md:hidden text-gray-900 hover:text-blue-600 focus:outline-none p-2">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+            </button>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-100">
+            <a href="#projects" class="block py-3 px-4 text-gray-900 hover:bg-gray-50">Projects</a>
+            <a href="#opinion" class="block py-3 px-4 text-gray-900 hover:bg-gray-50">Opinion</a>
+            <a href="#resume" class="block py-3 px-4 text-gray-900 hover:bg-gray-50">Resume</a>
+            <a href="#contact" class="block py-3 px-4 text-gray-900 hover:bg-gray-50">Contact</a>
+            <button id="cta-button-mobile" class="w-full bg-blue-600 text-white px-4 py-3 font-semibold hover:bg-blue-700 transition duration-300">Connect</button>
+        </div>
+    </header>
+
+
+    <main>
+        <section class="text-center py-20 md:py-32 bg-gradient-to-br from-white to-blue-50">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                
+                <img src="https://i.ibb.co/8Dycp5br/me.jpg" 
+                     alt="Musungu Shadrack Snr. Profile Picture" 
+                     class="w-40 h-40 rounded-full mx-auto mb-8 object-cover border-4 border-white shadow-xl transform hover:scale-105 transition duration-300">
+
+                <h2 class="text-5xl md:text-7xl font-extrabold mb-6 leading-tight">
+                    Financial Analyst, Equity Researcher & <span class="text-blue-600">Investment Strategist</span>
+                </h2>
+                
+                <p class="text-xl md:text-2xl text-gray-700 mb-10 max-w-3xl mx-auto">
+                    Hola! I take great passion in playing a role in helping firms and organizations to build different financial models and data visualization projects to aid in making informed decision making and drive growth across the financial sector.
+                </p>
+                <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
+                    <a href="#resume" class="inline-block bg-blue-600 text-white px-8 py-4 rounded-xl text-lg font-bold hover:bg-blue-700 transition duration-300 shadow-xl transform hover:scale-105">
+                        View Resume
+                    </a>
+                    <a href="#projects" class="inline-block bg-white text-blue-600 border border-blue-600 px-8 py-4 rounded-xl text-lg font-bold hover:bg-blue-50 hover:text-blue-700 transition duration-300 shadow-lg">
+                        See My Work
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="py-20 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h3 class="text-4xl font-bold text-center mb-16">Featured Projects & Case Studies</h3>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+                    
+                    <div class="bg-gray-50 p-8 rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 transform hover:-translate-y-1 group">
+                        <div class="text-blue-600 mb-4">
+                            <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-6a2 2 0 10-4 0v6m8-6v6a2 2 0 004 0v-6a2 2 0 10-4 0m-4-2h.01M12 11h.01M16 11h.01M7 7h.01M12 7h.01M16 7h.01"></path></svg>
+                        </div>
+                        <h4 class="text-2xl font-semibold mb-4 group-hover:text-blue-700 transition">3-Statement Financial Model</h4>
+                        <ul class="list-disc list-inside space-y-4">
+                            <li class="text-gray-500 italic">More projects coming soon...</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-gray-50 p-8 rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 transform hover:-translate-y-1 group">
+                        <div class="text-blue-600 mb-4">
+                            <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m-6-8h6M5 21h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>
+                        </div>
+                        <h4 class="text-2xl font-semibold mb-4 group-hover:text-blue-700 transition">Sector-Specific Equity Research</h4>
+                        <ul class="list-disc list-inside space-y-4">
+                            <li class="text-gray-500 italic">More projects coming soon...</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-gray-50 p-8 rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 transform hover:-translate-y-1 group">
+                        <div class="text-blue-600 mb-4">
+                            <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 8v8m-4-8v8m-4-8v8M4 16h16"></path></svg>
+                        </div>
+                        <h4 class="text-2xl font-semibold mb-4 group-hover:text-blue-700 transition">Interactive Risk & Returns Dashboard</h4>
+                        <ul class="list-disc list-inside space-y-4">
+                            <li>
+                                <span class="font-semibold text-gray-800">Blink.It Sales Analysis Dashboard Report</span>
+                                <a href="https://drive.google.com/file/d/1hpw8Ppo1NeFdiIWQqlECGMt1l8NgWl9r/view?usp=drive_link" 
+                                   target="_blank" rel="noopener noreferrer" 
+                                   class="text-blue-500 hover:text-blue-700 font-medium text-sm block pt-1">
+                                    View Report →
+                                </a>
+                            </li>
+                            <li>
+                                <span class="font-semibold text-gray-800">Adidas Sales Analysis Excel Dashboard</span>
+                                <a href="https://docs.google.com/spreadsheets/d/113zyUQyi-ADNakw3wMqUMkSGf_i5eToT/edit?usp=drive_link&ouid=107435270679821414426&rtpof=true&sd=true" 
+                                   target="_blank" rel="noopener noreferrer" 
+                                   class="text-blue-500 hover:text-blue-700 font-medium text-sm block pt-1">
+                                    View Dashboard →
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="opinion" class="py-20 bg-gray-100">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h3 class="text-4xl font-bold text-center mb-6">My Financial Opinion</h3>
+                <p class="text-xl text-gray-700 max-w-3xl mx-auto mb-12">
+                    Sharing my analysis on current market trends, equity valuations, and macroeconomic drivers across the financial sector.
+                </p>
+
+                <div class="max-w-4xl mx-auto space-y-8">
+                    <div class="text-left bg-white p-6 rounded-xl shadow-lg border-l-4 border-blue-600">
+                        <h4 class="text-2xl font-semibold text-gray-900 mb-2">Macro Outlook on Emerging Markets</h4>
+                        <p class="text-gray-600 mb-4 text-sm">Published: November 1, 2025</p>
+                        <p class="text-gray-700 mb-4">Analyzing the impact of US interest rates on emerging market debt and equity flows for Q4 2025.</p>
+                        <a href="#" class="text-blue-600 hover:text-blue-800 font-medium">Read Article →</a>
+                    </div>
+                    
+                    <a href="#contact" class="inline-block mt-4 bg-white text-blue-600 border border-blue-600 px-6 py-3 rounded-xl font-bold hover:bg-blue-50 transition duration-300 shadow-md">
+                        Contact Me About My Analysis
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="resume" class="py-20 bg-white">
+            <div class="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
+                <h3 class="text-4xl md:text-5xl font-extrabold text-gray-900 mb-6">Need a deeper dive?</h3>
+                <p class="text-xl text-gray-700 mb-8">Download my full resume for a detailed look at my experience, skills, and professional journey.</p>
+                
+                <a href="https://drive.google.com/file/d/1k5DL3ZvX0jZdIqqESZkYl16GxOJa8yqY/view?usp=sharing" 
+                   target="_blank" rel="noopener noreferrer"
+                   class="inline-block bg-blue-600 text-white px-10 py-4 rounded-xl text-xl font-bold hover:bg-blue-700 transition duration-300 shadow-2xl transform hover:scale-105">
+                    Download Full Resume (PDF)
+                </a>
+            </div>
+        </section>
+        <section id="contact" class="py-20 bg-gray-100"> 
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h3 class="text-4xl font-bold text-center mb-6">Let's Connect</h3>
+                <p class="text-xl text-gray-700 text-center max-w-2xl mx-auto mb-12">
+                    Have a question or want to work together? Feel free to reach out directly or use the form below.
+                </p>
+
+                <div class="mb-12">
+                    <div class="flex flex-col md:flex-row justify-center items-center gap-6 md:gap-8">
+                        
+                        <a href="mailto:musungushadrack10@gmail.com" class="flex items-center space-x-3 text-lg text-gray-700 hover:text-blue-600 transition duration-300">
+                            <svg class="w-6 h-6 text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91A2.25 2.25 0 012.25 6.993v-.243" /></svg>
+                            <span>musungushadrack10@gmail.com</span>
+                        </a>
+                        
+                        <a href="https://www.linkedin.com/in/musungu-shadrack-snr-a1abab2a8" target="_blank" rel="noopener noreferrer" class="flex items-center space-x-3 text-lg text-gray-700 hover:text-blue-600 transition duration-300">
+                            <svg class="w-6 h-6 text-gray-500" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3v9zM6.5 8.25A1.75 1.75 0 118.25 6.5 1.75 1.75 0 016.5 8.25zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93-.91 0-1.39.61-1.62 1.21-.08.21-.1.49-.1.77V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.38 1.02 3.38 3.3V19z"></path></svg>
+                            <span>LinkedIn Profile</span>
+                        </a>
+
+                        <a href="tel:0793901072" class="flex items-center space-x-3 text-lg text-gray-700 hover:text-blue-600 transition duration-300">
+                            <svg class="w-6 h-6 text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.211-.992-.58-1.355l-3.118-3.118a1.125 1.125 0 00-1.59 0l-1.12 1.12a1.125 1.125 0 01-1.59 0l-4.242-4.242a1.125 1.125 0 010-1.59l1.12-1.12a1.125 1.125 0 000-1.59L9.42 3.355a1.125 1.125 0 00-1.355-.58H6.75A2.25 2.25 0 004.5 4.5v2.25z" /></svg>
+                            <span>0793901072</span>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div class="text-center mb-12">
+                    <span class="text-lg text-gray-500 italic">— OR —</span>
+                </div>
+
+                <form action="https://formspree.io/f/mqayjlvy" method="POST" class="bg-white p-8 md:p-12 rounded-2xl shadow-xl">
+                    
+                    <div class="mb-6">
+                        <label for="name" class="block text-lg font-medium text-gray-800 mb-2">Your Name</label>
+                        <input type="text" name="name" id="name" required
+                               class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    </div>
+                    
+                    <div class="mb-6">
+                        <label for="email" class="block text-lg font-medium text-gray-800 mb-2">Your Email</label>
+                        <input type="email" name="email" id="email" required
+                               class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    </div>
+
+                    <div class="mb-6">
+                        <label for="message" class="block text-lg font-medium text-gray-800 mb-2">Message</label>
+                        <textarea name="message" id="message" rows="5" required
+                                  class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+                    </div>
+
+                    <div class="text-center">
+                        <button type="submit" 
+                                class="inline-block bg-blue-600 text-white px-10 py-4 rounded-xl text-xl font-bold hover:bg-blue-700 transition duration-300 shadow-2xl transform hover:scale-105">
+                            Send Message
+                        </button>
+                    </div>
+                </form>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-gray-800 text-white py-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p class="mb-4">&copy; 2025 Musungu Shadrack Snr.. All rights reserved.</p>
+            <div class="space-x-4 text-sm">
+                <a href="#" class="text-gray-400 hover:text-white transition duration-150">Privacy Policy</a>
+                <a href="#" class="text-gray-400 hover:text-white transition duration-150">Terms of Service</a>
+                <a href="mailto:musungushadrack10@gmail.com" class="text-gray-400 hover:text-white transition duration-1A50">Email Me</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const mobileMenuButton = document.getElementById('mobile-menu-button');
+            const mobileMenu = document.getElementById('mobile-menu');
+
+            // Function to toggle the mobile menu visibility
+            const toggleMenu = () => {
+                mobileMenu.classList.toggle('hidden');
+            };
+
+            // Event listener for the button click
+            mobileMenuButton.addEventListener('click', toggleMenu);
+
+            // Close menu when a link is clicked (for better UX on mobile)
+            mobileMenu.querySelectorAll('a').forEach(link => {
+                link.addEventListener('click', () => {
+                    if (!mobileMenu.classList.contains('hidden')) {
+                        toggleMenu();
+                    }
+                });
+            });
+            
+            // Define the new, better alert message
+            const connectMessage = "Thanks for your interest! You can reach me via the contact details or form below.";
+
+            // Handle CTA click (Connect button in DESKTOP nav)
+            const ctaButtonNav = document.getElementById('cta-button-nav');
+            if (ctaButtonNav) {
+                ctaButtonNav.addEventListener('click', () => {
+                    alertModal(connectMessage, 'Let\'s Connect');
+                });
+            }
+
+            // Handle CTA click (Connect button in MOBILE menu)
+            const ctaButtonMobile = document.getElementById('cta-button-mobile');
+            if (ctaButtonMobile) {
+                ctaButtonMobile.addEventListener('click', () => {
+                    alertModal(connectMessage, 'Let\'s Connect');
+                    // Also close the menu
+                    if (!mobileMenu.classList.contains('hidden')) {
+                        toggleMenu();
+                    }
+                });
+            }
+
+            // Custom non-alert modal system (since alert() is disabled)
+            window.alertModal = function(message, title = 'Notification') {
+                let modal = document.getElementById('custom-alert-modal');
+                if (!modal) {
+                    modal = document.createElement('div');
+                    modal.id = 'custom-alert-modal';
+                    modal.className = 'fixed inset-0 z-50 flex items-center justify-center p-4 bg-black bg-opacity-50 hidden';
+                    modal.innerHTML = `
+                        <div class="bg-white rounded-xl shadow-2xl max-w-sm w-full p-6 transform transition-all duration-300">
+                            <h5 class="text-xl font-bold mb-4 text-gray-800" id="modal-title"></h5>
+                            <p class="text-gray-600 mb-6" id="modal-message"></p>
+                            <button id="modal-close-button" class="bg-blue-600 text-white px-4 py-2 rounded-lg w-full hover:bg-blue-700 transition">OK</button>
+                        </div>
+                    `;
+                    document.body.appendChild(modal);
+
+                    document.getElementById('modal-close-button').addEventListener('click', () => {
+                        modal.classList.add('hidden');
+                    });
+                }
+                document.getElementById('modal-title').textContent = title;
+                document.getElementById('modal-message').textContent = message;
+                modal.classList.remove('hidden');
+            }
+        });
+    </script>
+
+</body>
+</html>
